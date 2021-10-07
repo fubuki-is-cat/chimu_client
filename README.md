@@ -5,7 +5,7 @@
 export GOROOT_FINAL=/tmp
 export GOOS=windows
 export GOARCH=amd64
-go build -trimpath -ldflags "-s -w" -o chimu_client
+go build -trimpath -ldflags "-s -w" -o chimu_client.exe
 
 # Optional: Compress exectuable with upx
 upx chimu_client
